@@ -1,0 +1,39 @@
+<html>
+<head>
+<title>
+registration</title>
+<script>
+	function validate(loginform){
+		var name=loginform.user.value;
+		var pwd=loginform.password.value;
+		
+		if(name.length==0){
+			alert("enter u r name");
+			loginform.user.focus();
+			return false;
+		}
+		if(pwd.length==0){
+			alert("enter password");
+			loginform.password.focus();
+			return false;
+			
+		}
+		if(name.length>=1&&pwd.length>=1){
+			alert("login successfull");
+		}
+		
+	}
+</script>
+</head>
+<body bgcolor="pink">
+<center>
+<h1> Registraion form</h1>
+<form method="post" name="loginform" onsubmit="return validate(this)">
+
+UserName         <input type="text" name="user" size="30"/><br/>
+Password         <input type="password" name="password" size="30"/><br/>
+<input type="submit" value="login"><br/>
+</form>
+</center>
+</body>
+</html>
