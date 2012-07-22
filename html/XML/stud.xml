@@ -1,0 +1,13 @@
+<!DOCTYPE institute SYSTEM "StudRules.dtd">
+<inistitute>
+<student course="java" type="regular">
+<rollno>1234</rollno>
+<name>swathi</name>
+<mobileno>9902800633</mobileno>
+<address state="AP">
+<hno>2-82</hno>
+<colony>tharalapally</colony>
+<city>warangal</city>
+</address>
+</student>
+</inistitute>

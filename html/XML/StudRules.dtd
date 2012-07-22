@@ -1,0 +1,12 @@
+<!ELEMENT inistitute(student+)> 
+<!ELEMENT student(rollno,name,mobileno*,address)> 
+<!ELEMENT rollno(#PCDATA)> 
+<!ELEMENT name(#PCDATA)> 
+<!ELEMENT address(hno,colony,city)>
+<!ELEMENT hno(#PCDATA)> 
+<!ELEMENT colony(#PCDATA)> 
+<!ELEMENT city(#PCDATA)> 
+<!ATTLIST student course(java|html|oracle) "html"> 
+<!ATTLIST student type CDATA #IMPLIED>
+<!ATTLIST address state CDATA "AP" >
+ 
